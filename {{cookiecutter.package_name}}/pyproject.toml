@@ -1,5 +1,5 @@
 [project]
-name = "{{cookiecutter.plugin_name}}"
+name = "{{cookiecutter.package_name}}"
 dynamic = ["version"]
 description = "{{cookiecutter.short_description}}"
 {%- if cookiecutter.contact_email %}
@@ -27,4 +27,4 @@ dependencies = [
 version = {file = ["VERSION"]}
 
 [project.urls]
-Source = "https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.repo_name}}"
+Source = "https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.github_repo}}"

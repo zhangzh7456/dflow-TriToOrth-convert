@@ -9,11 +9,11 @@ For the package structure produced by the OP cutter, see the [dflow-hello](https
 ```
 $ pip install cookiecutter
 $ cookiecutter https://github.com/deepmodeling/dflow-op-cutter.git
-plugin_name [dflow-hello]: 
+package_name [dflow-hello]: 
 module_name [dflow_hello]: 
 short_description [dflow demo OP]: 
 github_user [deepmodeling]: 
-repo_name [dflow-hello]: 
+github_repo [dflow-hello]: 
 contact_email []: 
 version [0.1.0]: 
 author [deepmodeling]: 

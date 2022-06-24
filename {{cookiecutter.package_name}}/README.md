@@ -1,4 +1,4 @@
-# {{ cookiecutter.plugin_name }}
+# {{ cookiecutter.package_name }}
 
 {{ cookiecutter.short_description }}
 
@@ -25,5 +25,5 @@ intended to help developers get started with their dflow OPs.
 ## Installation
 
 ```shell
-pip install {{ cookiecutter.plugin_name}}
+pip install {{ cookiecutter.package_name}}
 ```

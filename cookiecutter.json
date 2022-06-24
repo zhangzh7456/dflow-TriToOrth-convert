@@ -1,13 +1,13 @@
 {
-  "plugin_name": "dflow-hello",
-  "module_name": "{{ cookiecutter.plugin_name | replace('-', '_') }}",
+  "package_name": "dflow-hello",
+  "module_name": "{{ cookiecutter.package_name | replace('-', '_') }}",
   "short_description": "dflow demo OP",
   "github_user": "deepmodeling",
-  "repo_name": "{{ cookiecutter.plugin_name }}",
+  "github_repo": "{{ cookiecutter.package_name }}",
   "contact_email": "",
   "version": "0.1.0",
   "author": "deepmodeling",
   "dflow_min_version": "1.0",
   "dockerhub_user": "deepmodeling",
-  "dockerhub_repo": "{{ cookiecutter.plugin_name }}"
+  "dockerhub_repo": "{{ cookiecutter.package_name }}"
 }
