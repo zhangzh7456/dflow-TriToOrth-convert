@@ -10,7 +10,6 @@ on:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    if: github.repository == '{{ cookiecutter.github_user }}/{{ cookiecutter.github_repo }}'
 
     steps:
     - name: Checkout repository
@@ -47,6 +46,6 @@ jobs:
     - name: Notify deepmodeling
       uses: satak/webrequest-action@master
       with:
-        url: https://deepmodeling.com/dflow/apis/op/notify/pypi?op={{cookiecutter.package_name}}
+        url: https://deepmodeling.com/dflow/apis/op/notify/pypi?package_name={{cookiecutter.package_name}}&github_repo=${{ '{{ github.repository }}' }}
         method: GET
       continue-on-error: true

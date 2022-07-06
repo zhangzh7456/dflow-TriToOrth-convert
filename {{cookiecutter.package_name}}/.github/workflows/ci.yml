@@ -27,6 +27,6 @@ jobs:
     - name: Notify deepmodeling
       uses: satak/webrequest-action@master
       with:
-        url: https://deepmodeling.com/dflow/apis/op/notify/github?op={{cookiecutter.package_name}}&user={{cookiecutter.github_user}}&repo={{cookiecutter.github_repo}}
+        url: https://deepmodeling.com/dflow/apis/op/notify/github?package_name={{cookiecutter.package_name}}&github_repo=${{ '{{ github.repository }}' }}
         method: GET
       continue-on-error: true
