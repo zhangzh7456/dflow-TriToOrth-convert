@@ -23,9 +23,9 @@ config["host"] = "https://workflows.deepmodeling.com"
 config["k8s_api_server"] = "https://workflows.deepmodeling.com"
 config["namespace"] = "argo"
 
-bohrium.config["username"] = "zehua.zhang.pku@outlook.com"
-bohrium.config["password"] = "Peterzzh7456%"
-bohrium.config["project_id"] = "460466"
+bohrium.config["username"] = "<Bohrium-email>"
+bohrium.config["password"] = "<Bohrium-password>"
+bohrium.config["project_id"] = "<Bohrium-project_id>"
 
 s3_config["repo_key"] = "oss-bohrium"
 s3_config["storage_client"] = TiefblueClient()
